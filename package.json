@@ -1,5 +1,5 @@
 {
-    "name": "@acl-services/colors.highbond",
+    "name": "@acl-services/colors.highbond.js",
     "description": "get colors in your node.js console",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
@@ -7,7 +7,7 @@
     "version": "1.4.0",
     "repository": {
         "type": "git",
-        "url": "http://github.com/acl-services/colors.highbond.git"
+        "url": "http://github.com/acl-services/colors.highbond.js.git"
     },
     "license": "MIT",
     "scripts": {
