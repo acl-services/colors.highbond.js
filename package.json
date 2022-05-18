@@ -1,0 +1,34 @@
+{
+    "name": "@acl-services/colors.highbond",
+    "description": "get colors in your node.js console",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "version": "1.4.0",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/acl-services/colors.highbond.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint . --fix",
+        "test": "node tests/basic-test.js && node tests/safe-test.js"
+    },
+    "engines": {
+        "node": ">=0.1.90"
+    },
+    "main": "lib/index.js",
+    "files": [
+        "examples",
+        "lib",
+        "LICENSE",
+        "safe.js",
+        "themes",
+        "index.d.ts",
+        "safe.d.ts"
+    ],
+    "devDependencies": {
+        "eslint": "^5.2.0",
+        "eslint-config-google": "^0.11.0"
+    }
+}
